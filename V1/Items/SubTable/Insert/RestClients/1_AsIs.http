@@ -1,0 +1,8 @@
+POST http://localhost:3000/V1/Items/SubTable/Insert/AsIs/{RowIndex}/{KeyName}
+Content-Type: application/json
+
+{
+  "ItemName": "",
+  "GST": "",
+  "Factor": ""
+}

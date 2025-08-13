@@ -1,0 +1,1 @@
+{"TableName":"/V1/Items","columns":[{"field":"ItemName","title":"ItemName","unique":true,"type":"text","isInput":true},{"field":"GST","title":"GST","unique":false,"type":"text"},{"field":"Factor","title":"Factor","type":"text"}]}

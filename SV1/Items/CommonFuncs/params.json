@@ -1,0 +1,1 @@
+{"TableName":"Items","DataPath":"Data","Columns":["ItemName","GST","Factor"],"ColumnsWithSchema":[{"field":"ItemName","title":"ItemName","unique":true,"type":"text","isInput":true},{"field":"GST","title":"GST","unique":false,"type":"text"},{"field":"Factor","title":"Factor","type":"text"}]}

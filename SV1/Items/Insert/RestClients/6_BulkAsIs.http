@@ -1,0 +1,10 @@
+POST http://localhost:3000/SV1/Items/Insert/BulkAsIs
+Content-Type: application/json
+
+[
+  {
+    "ItemName": "",
+    "GST": "",
+    "Factor": ""
+  }
+]

@@ -1,0 +1,83 @@
+{
+    "tableName": "Items",
+    "columns": [
+        {
+            "field": "ItemName",
+            "title": "ItemName",
+            "unique": true,
+            "type": "text",
+            "isInput": true
+        },
+        {
+            "field": "GST",
+            "title": "GST",
+            "unique": false,
+            "type": "text"
+        },
+        {
+            "field": "Factor",
+            "title": "Factor",
+            "type": "text"
+        }
+    ],
+    "data": [
+        {
+            "pk": "2",
+            "ItemName": "NIGHTHY",
+            "GST": "5",
+            "Factor": "1"
+        },
+        {
+            "pk": "3",
+            "ItemName": "NIGHT SUIT",
+            "GST": "5",
+            "Factor": "1"
+        },
+        {
+            "pk": "4",
+            "ItemName": "NIGHT SLIPS",
+            "GST": "5",
+            "Factor": "1"
+        }
+    ],
+    "Vertical": [
+        {
+            "field": "title",
+            "title": "Title",
+            "unique": true,
+            "type": "text",
+            "isInput": true
+        },
+        {
+            "field": "start",
+            "title": "Start Date",
+            "unique": false,
+            "type": "date",
+            "isInput": true
+        },
+        {
+            "field": "className",
+            "title": "Class Name",
+            "unique": false,
+            "type": "text",
+            "isInput": false,
+            "isSelect": false,
+            "isDataList": true,
+            "selectOptions": [
+                {
+                    "value": "bg-primary",
+                    "text": "bg-primary"
+                },
+                {
+                    "value": "bg-success",
+                    "text": "bg-success"
+                }
+            ]
+        }
+    ],
+    "DataTableOptions": {
+        "Header": {
+            "autoFocus": "title"
+        }
+    }
+}
