@@ -12,12 +12,14 @@
             "field": "GST",
             "title": "GST",
             "unique": false,
-            "type": "text"
+            "type": "number",
+            "isInput": true
         },
         {
             "field": "Factor",
             "title": "Factor",
-            "type": "text"
+            "type": "number",
+            "isInput": true
         }
     ],
     "data": [
@@ -42,37 +44,24 @@
     ],
     "Vertical": [
         {
-            "field": "title",
-            "title": "Title",
+            "field": "ItemName",
+            "title": "ItemName",
             "unique": true,
             "type": "text",
             "isInput": true
         },
         {
-            "field": "start",
-            "title": "Start Date",
+            "field": "GST",
+            "title": "GST",
             "unique": false,
-            "type": "date",
+            "type": "number",
             "isInput": true
         },
         {
-            "field": "className",
-            "title": "Class Name",
-            "unique": false,
-            "type": "text",
-            "isInput": false,
-            "isSelect": false,
-            "isDataList": true,
-            "selectOptions": [
-                {
-                    "value": "bg-primary",
-                    "text": "bg-primary"
-                },
-                {
-                    "value": "bg-success",
-                    "text": "bg-success"
-                }
-            ]
+            "field": "Factor",
+            "title": "Factor",
+            "type": "number",
+            "isInput": true
         }
     ],
     "DataTableOptions": {
